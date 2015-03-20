@@ -62,3 +62,11 @@ build/
 
 ## OS Specific
 .DS_Store
+
+## Graphics
+
+#Maps
+*.tmx
+
+#Tilesets
+*.png
