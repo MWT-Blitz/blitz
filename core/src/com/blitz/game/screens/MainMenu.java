@@ -12,7 +12,10 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.blitz.game.Blitz;
 
 public class MainMenu implements Screen{
+<<<<<<< HEAD
 	Blitz game;
+=======
+>>>>>>> af854d70f1e0274dd221b2b5ed1b1e6c16084743
 	private SpriteBatch batch;
     private BitmapFont font;
 	public Stage stage = new Stage();
@@ -31,11 +34,16 @@ public class MainMenu implements Screen{
         stage.act();	
         stage.draw();
         batch.begin();
+<<<<<<< HEAD
         font.draw(batch, "Touch to begin", 200, 200);
         batch.end();
         if (Gdx.input.isKeyPressed(Input.Keys.ENTER)) {
             game.setScreen(game.map);
         }
+=======
+        font.draw(batch, "Hello World", 200, 200);
+        batch.end();
+>>>>>>> af854d70f1e0274dd221b2b5ed1b1e6c16084743
     }
 
     @Override
